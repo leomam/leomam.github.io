@@ -161,16 +161,16 @@
                     <sousmenu>Me Contacter</sousmenu>
                     <p>Mon email : leo.massy@orange.fr</p>
                 </header>
-                <form method="post" action="traitement.php">
+                <form>
                     <div class="row 50%">
-                        <div class="6u 12u$(mobile)"><input type="text" class="text" name="name" placeholder="Nom" /></div>
-                        <div class="6u$ 12u$(mobile)"><input type="text" class="text" name="email" placeholder="Email" /></div>
+                        <div class="6u 12u$(mobile)"><input id="contact_name" type="text" class="text" name="name" placeholder="Nom" /></div>
+                        <div class="6u$ 12u$(mobile)"><input id="contact_mail" type="email" class="text" name="email" placeholder="Email" /></div>
                         <div class="12u$">
-                            <textarea name="message" placeholder="Message"></textarea>
+                            <textarea id="contact_text" name="message" placeholder="Message"></textarea>
                         </div>
                         <div class="12u$">
                             <ul class="actions">
-                                <li><input type="submit" value="Envoyer" /></li>
+                                <li><input id="contact_submit" type="submit" value="Envoyer" /></li>
                             </ul>
                         </div>
                     </div>
@@ -207,6 +207,22 @@
     <script src="assets/js/util.js"></script>
     <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
     <script src="assets/js/main.js"></script>
+    <script>
+        var nom = $("#contact_name").val();
+        var mail = $("#contact_mail").val();
+        var text = $("#contact_text").val();
+        var tki = $("#contact_submit");
+        tki.click(function (e) {
+            var info = {
+                "name":contact_name,
+                "mail":contact_mail,
+                "text":contact_text};
+            $.ajax({
+                url:"teamango.ddns.net:8080/contact.php"
+                data:info;
+            });
+        });
+    </script>
 
 </body>
 
