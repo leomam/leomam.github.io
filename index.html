@@ -213,10 +213,9 @@
         var text = $("#contact_text").val();
         var tki = $("#contact_submit");
         tki.click(function (e) {
-            var info = {
-                "name":contact_name,
-                "mail":contact_mail,
-                "text":contact_text};
+            var info = {"name":nom,"mail":mail,"text":text};
+
+
             $.ajax({
                 url:"teamango.ddns.net:8080/contact.php"
                 data:info;
