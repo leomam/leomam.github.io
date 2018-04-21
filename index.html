@@ -104,7 +104,11 @@
                                 <div class="row">
                                     <div class="2u 12u(mobile)">
                                         <section class="box feature">
-                                            <a class="image featured"><img src="images/slide_html5.png" alt="HTML5/CSS3 et Bootstrap" /></a>
+                                            <div class="containercomp">
+                                                <span class="image featured frontcomp"><img src="images/slide_html5.png" alt="HTML5/CSS3 et Bootstrap" /></span>
+                                                <span class="image featured backcomp"><img src="images/slide_html5b.png" alt="HTML5/CSS3 et Bootstrap" />
+                                                </span>
+                                            </div>
                                             <h3>Sites Web : HTML5/CSS3 et Bootstrap</h3>
                                         </section>
                                     </div>
@@ -226,6 +230,17 @@
                 data: info
             });
         });
+        
+        resizeComp();
+        $(window).resize(function() {
+            resizeComp();
+        })
+
+        function resizeComp() {
+            cWidth = $('.containercomp img').css('width');
+            $('.containercomp').css('height', cWidth)
+        }
+
     </script>
 
 </body>
