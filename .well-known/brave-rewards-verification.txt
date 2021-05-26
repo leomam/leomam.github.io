@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: gihub.io
+Token: 2fbdab1785d9ae6974fb68a9646646b3b6fc600689ee4c628ef4eedbbe5281ae
