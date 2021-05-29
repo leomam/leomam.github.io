@@ -74,8 +74,7 @@
 
                                 <section>
                                     <p> 
-                                        Currently in my last year of my Bachelor in computer science in the Faculty of Sciences of
-                                        Angers in France, I'm passionated by all the fields of computer science, I
+                                        Currently a student of ENI Informatique in Nantes (France), I'm passionated by all the fields of computer science, I
                                         chose a training in the field of the computer science, this training allowed me
                                         to enhance me in the software development. I like that, cause I can create
                                         software always more complete and more useful.
@@ -273,7 +272,7 @@
                                 </header>
                                 <div class="row">
                                     <div class="3u 12u(mobile)">
-                                        <section class="box feature">
+                                        <section class="box feature" id="cvendark">
                                             <a href="../cv/Massy%20L%C3%A9o%20CV%20english%20dark%20theme.pdf"
                                                 class="image featured"><img src="../images/cv/miniaturedarktheme.jpg"
                                                     alt="CV dark theme" /></a>
@@ -283,13 +282,12 @@
                                         </section>
                                     </div>
                                     <div class="3u 12u(mobile)">
-                                        <section class="box feature">
+                                        <section class="box feature" id="cvenbright">
                                             <a href="../cv/Massy%20L%C3%A9o%20CV%20english%20white%20theme.pdf"
                                                 class="image featured"><img src="../images/cv/miniaturewhitetheme.jpg"
                                                     alt="CV white theme" /></a>
                                             <a href="../cv/Massy%20L%C3%A9o%20CV%20english%20white%20theme.pdf">
-                                                <h3>Print my CV </h3>
-                                                <h3>(the ink saver version)</h3>
+                                                <h3>Print my CV (the ink saver version)</h3>
                                             </a>
                                         </section>
                                     </div>
@@ -306,45 +304,14 @@
                 <header>
                     <sousmenu>Contact me</sousmenu>
                     <p>My email : leo.massy@orange.fr</p>
+                    <ul class="contact">
+                        <li><a class="icon fa-linkedin"
+                                href="https://www.linkedin.com/in/l%C3%A9o-massy-423a38141/"><span
+                                    class="label">LinkedIn</span></a></li>
+                    </ul>
                 </header>
-                <!--<form>
-                    <div class="row 50%">
-                        <div class="6u 12u$(mobile)"><input id="contact_name" type="text" class="text" name="name" placeholder="Name" /></div>
-                        <div class="6u$ 12u$(mobile)"><input id="contact_mail" type="email" class="text" name="email" placeholder="Email" /></div>
-                        <div class="12u$">
-                            <textarea id="contact_text" name="message" placeholder="Message"></textarea>
-                        </div>
-                        <div class="12u$">
-                            <ul class="actions">
-                                <li><input id="contact_submit" type="submit" value="Send" /></li>
-                            </ul>
-                        </div>
-                    </div>
-                </form> -->
             </article>
         </div>
-
-        <!-- Footer -->
-        <footer id="footer" class="container">
-            <div class="row 200%">
-                <div class="12u">
-
-                    <!-- Contact -->
-                    <section>
-                        <h2 class="major"><span>Social Networks</span></h2>
-                        <ul class="contact">
-                            <li><a class="icon fa-viadeo" href="http://fr.viadeo.com/fr/profile/leo.massy"><span
-                                        class="label">Viadeo</span></a></li>
-                            <li><a class="icon fa-linkedin"
-                                    href="https://www.linkedin.com/in/l%C3%A9o-massy-423a38141/"><span
-                                        class="label">LinkedIn</span></a></li>
-                        </ul>
-                    </section>
-
-                </div>
-            </div>
-
-        </footer>
 
     </div>
 
@@ -354,37 +321,10 @@
     <script src="../assets/js/skel.min.js"></script>
     <script src="../assets/js/skel-viewport.min.js"></script>
     <script src="../assets/js/util.js"></script>
-    <!--[if lte IE 8]><script src="../assets/js/ie/respond.min.js"></script><![endif]-->
     <script src="../assets/js/main.js"></script>
-    <script>
-        var nom = $("#contact_name").val();
-        var mail = $("#contact_mail").val();
-        var text = $("#contact_text").val();
-        var tki = $("#contact_submit");
-        tki.click(function (e) {
-            var info = {
-                "name": nom,
-                "mail": mail,
-                "text": text
-            };
-
-
-            $.ajax({
-                url: "teamango.ddns.net:8080/contact.php",
-                data: info
-            });
-        });
-
-        resizeComp();
-        $(window).resize(function () {
-            resizeComp();
-        })
-
-        function resizeComp() {
-            cWidth = $('.containercomp img').css('width');
-            $('.containercomp').css('height', cWidth)
-        }
-    </script>
+    <script src="../js/generateCV/data/data-images-cv.js"></script>
+    <script src="../js/generateCV/libs/jspdf.umd.js"></script>
+    <script src="../js/generateCV/main.js"></script>
 
 </body>
 

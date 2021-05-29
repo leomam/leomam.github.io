@@ -36,6 +36,7 @@
                 <li><a href="#competences">Compétences</a></li>
                 <li><a href="projets.html">Projets</a>
                     <ul>
+                        <li><a href="projets.html#PartyGameWeb">Jeu d'Ambiance : Party Game Web</a></li>
                         <li><a href="projets.html#Unity3DInternship2019">Jeu Vidéo : Stage fin DUT Informatique (été
                                 2019)</a></li>
                         <li><a href="projets.html#SuperHexagonLike">Jeu Vidéo : Super Hexagon Like</a></li>
@@ -262,7 +263,7 @@
                                 </header>
                                 <div class="row">
                                     <div class="3u 12u(mobile)">
-                                        <section class="box feature">
+                                        <section class="box feature" id="cvfrdark">
                                             <a href="cv/Massy Léo CV FR Dark Theme 2021.pdf"
                                                 class="image featured"><img src="images/cv/miniaturedarktheme.jpg"
                                                     alt="CV" /></a>
@@ -272,10 +273,10 @@
                                         </section>
                                     </div>
                                     <div class="3u 12u(mobile)">
-                                        <section class="box feature">
+                                        <section class="box feature" id="cvfrbright">
                                             <a href="cv/Massy Léo CV FR White Theme 2021.pdf"
                                                 class="image featured"><img src="images/cv/miniaturewhitetheme.jpg"
-                                                    alt="CV" /></a>
+                                                    alt="CV"/></a>
                                             <a href="cv/Massy Léo CV FR White Theme 2021.pdf">
                                                 <h3>et Mon CV à imprimer pour économiser l'encre</h3>
                                             </a>
@@ -294,47 +295,15 @@
                 <header>
                     <sousmenu>Me Contacter</sousmenu>
                     <p>Mon email : leo.massy@orange.fr</p>
+                    <ul class="contact">
+                        <li><a class="icon fa-linkedin"
+                                href="https://www.linkedin.com/in/l%C3%A9o-massy-423a38141/"><span
+                                    class="label">LinkedIn</span></a></li>
+                    </ul>
                 </header>
-                <!--<form>
-                    <div class="row 50%">
-                        <div class="6u 12u$(mobile)"><input id="contact_name" type="text" class="text" name="name"
-                                placeholder="Nom" /></div>
-                        <div class="6u$ 12u$(mobile)"><input id="contact_mail" type="email" class="text" name="email"
-                                placeholder="Email" /></div>
-                        <div class="12u$">
-                            <textarea id="contact_text" name="message" placeholder="Message"></textarea>
-                        </div>
-                        <div class="12u$">
-                            <ul class="actions">
-                                <li><input id="contact_submit" type="submit" value="Envoyer" /></li>
-                            </ul>
-                        </div>
-                    </div>
-                </form> -->
             </article>
         </div>
 
-        <!-- Footer -->
-        <footer id="footer" class="container">
-            <div class="row 200%">
-                <div class="12u">
-
-                    <!-- Contact -->
-                    <section>
-                        <h2 class="major"><span>Réseaux Sociaux</span></h2>
-                        <ul class="contact">
-                            <li><a class="icon fa-viadeo" href="http://fr.viadeo.com/fr/profile/leo.massy"><span
-                                        class="label">Viadeo</span></a></li>
-                            <li><a class="icon fa-linkedin"
-                                    href="https://www.linkedin.com/in/l%C3%A9o-massy-423a38141/"><span
-                                        class="label">LinkedIn</span></a></li>
-                        </ul>
-                    </section>
-
-                </div>
-            </div>
-
-        </footer>
 
     </div>
 
@@ -344,37 +313,10 @@
     <script src="assets/js/skel.min.js"></script>
     <script src="assets/js/skel-viewport.min.js"></script>
     <script src="assets/js/util.js"></script>
-    <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
     <script src="assets/js/main.js"></script>
-    <script>
-        var nom = $("#contact_name").val();
-        var mail = $("#contact_mail").val();
-        var text = $("#contact_text").val();
-        var tki = $("#contact_submit");
-        tki.click(function (e) {
-            var info = {
-                "name": nom,
-                "mail": mail,
-                "text": text
-            };
-
-
-            $.ajax({
-                url: "teamango.ddns.net:8080/contact.php",
-                data: info
-            });
-        });
-
-        resizeComp();
-        $(window).resize(function () {
-            resizeComp();
-        })
-
-        function resizeComp() {
-            cWidth = $('.containercomp img').css('width');
-            $('.containercomp').css('height', cWidth)
-        }
-    </script>
+    <script src="js/generateCV/data/data-images-cv.js"></script>
+    <script src="js/generateCV/libs/jspdf.umd.js"></script>
+    <script src="js/generateCV/main.js"></script>
 
 </body>
 
