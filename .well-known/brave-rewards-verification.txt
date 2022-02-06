@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: leomam.github.io
+Token: ec8655e224fc95c02816c21824de4bf627c8e40a32559a70987ec155d8fe9704
