@@ -10,6 +10,12 @@ let tabquestionrep =    [["Combien d'États membres dans l'Union Européenne (20
                         ["Combien vaut la superficie de l'Allemagne en km² ?", "357 386 km²"],
                         ["Combien vaut la distance entre Brest et New York à vol d'oiseau ?", "5383 m"],
                         ["Combien d'arrondissements à Paris ?", "20"],
+			["Quel est la taille de Shakira ?", "1m57"],
+			["Quel est la taille de Shaquille O'Neal ?", "2m16"],
+			["Quel est l'année de décès de Nelson Mandela ?", "2013 (5 décembre)"],
+			["Quel est l'année de Minecraft", "2009 (17 mai)"],
+			["Quel est l'année de la Bataille de Marignan", "1515"],
+			["Quel est l'année de la mise au point du procédé de l'imprimerie", "1450"],
                         ["Quel est la taille de la Tour Montparnasse en mètres ?", "209 m"]];
 
 
