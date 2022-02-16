@@ -15,6 +15,8 @@ let tabquestionrep =    [["Combien d'États membres dans l'Union Européenne (20
 			            ["Quel est l'année de décès de Nelson Mandela ?", "2013 (5 décembre)"],
 			            ["Quel est l'année de la création de Minecraft ?", "2009 (17 mai)"],
 			            ["Quel est l'année de la Bataille de Marignan ?", "1515"],
+                        ["Combien de litres dans 1 mètre cube ?", "1000L"],
+                        ["En 2021, Quel était le prix d'1kg d'or 24 carat en moyenne en € ?", "En 2021, le prix d'un lingot Or un kilo valait en moyenne 50 000€."],
 			            ["Quel est l'année de la mise au point du procédé de l'imprimerie ?", "1450"],
                         ["Quel est l'année où Christophe Colomb à découvert l'Amérique ?", "1492"],
                         ["Quel est la taille de la Tour Montparnasse en mètres ?", "209 m"]];
