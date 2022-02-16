@@ -18,6 +18,7 @@ let tabquestionrep =    [["Combien d'États membres dans l'Union Européenne (20
                         ["Combien de litres dans 1 mètre cube ?", "1000L"],
                         ["En 2021, Quel était le prix d'1kg d'or 24 carat en moyenne en € ?", "En 2021, le prix d'un lingot Or un kilo valait en moyenne 50 000€."],
 			            ["Quel est l'année de la mise au point du procédé de l'imprimerie ?", "1450"],
+                        ["Quel est la longueur du plus grand paquebot au monde \"Wonder of the Seas\" (2021) en mètres ?", "362 m"],
                         ["Quel est l'année où Christophe Colomb à découvert l'Amérique ?", "1492"],
                         ["Quel est la taille de la Tour Montparnasse en mètres ?", "209 m"]];
 
