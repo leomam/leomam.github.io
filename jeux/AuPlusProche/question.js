@@ -20,6 +20,13 @@ let tabquestionrep =    [["Combien d'États membres dans l'Union Européenne (20
 			            ["Quel est l'année de la mise au point du procédé de l'imprimerie ?", "1450"],
                         ["Quel est la longueur du plus grand paquebot au monde \"Wonder of the Seas\" (2021) en mètres ?", "362 m"],
                         ["Quel est l'année où Christophe Colomb à découvert l'Amérique ?", "1492"],
+                        ["Quel est l'année du premier pas de l'Homme sur la lune ?", "1969 (21 juillet)"],
+                        ["Quel est la distance à vol d'oiseau entre Paris et Marseille en km ?", "661 km"],
+                        ["Combien y-a-t'il eu de naissance en France en 2021 ?", "738 000 bébés"],
+                        ["Combien y-a-t'il eu de mort en France en 2021 toutes causes confondues ?", "367 665 décès"],
+                        ["Combien y-a-t'il de régions en France Métropolitaine en 2021 ?", "13 régions métropolitaines (et 5 régions d'outre mer.)"],
+                        ["Combien y-a-t'il de départements en France Métropolitaine en 2021 ?", "96 départements métropolitains"],
+                        ["Combien y-avait-il d'habitants en Chine fin 2021 ?", "Fin 2021, le pays comptait 1,4126 milliard d'habitants"],
                         ["Quel est la taille de la Tour Montparnasse en mètres ?", "209 m"]];
 
 
