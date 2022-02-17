@@ -1,6 +1,7 @@
 let tabquestionrep =    [["Combien d'États membres dans l'Union Européenne (2022) ?", "L'Union européenne (UE) compte 27 États membres en 2022"],
                         ["Combien de grands fleuves en France ?", "5 : le Rhin, le Rhône, la Loire, la Seine, la Garonne"],
                         ["Quel est la taille du Burj Khalifa en mètres ?", "828 m"],
+                        ["Quel est la taille de l'Empire State Building en mètres ?", "381 m"],
                         ["Quel est la taille de la Statue de la Liberté SANS socle en mètres ?", "46 m"],
                         ["Quel est la taille de la Statue de la Liberté AVEC socle en mètres ?", "93 m"],
                         ["Combien vaut 1 Mile en mètres ?", "1609 m"],
@@ -27,6 +28,9 @@ let tabquestionrep =    [["Combien d'États membres dans l'Union Européenne (20
                         ["Combien y-a-t'il de régions en France Métropolitaine en 2021 ?", "13 régions métropolitaines (et 5 régions d'outre mer.)"],
                         ["Combien y-a-t'il de départements en France Métropolitaine en 2021 ?", "96 départements métropolitains"],
                         ["Combien y-avait-il d'habitants en Chine fin 2021 ?", "Fin 2021, le pays comptait 1,4126 milliard d'habitants"],
+                        ["Combien y-avait-il d'habitants en France fin 2021 ?", "Fin 2021, le pays comptait 67,8 millions d'habitants"],
+                        ["Combien y-a-t'il de Pokémon dans la 1ère génération de Pokémon ?", "151"],
+                        ["Combien y-a-t'il de galaxies dans l'univers selon les estimations ?", "2000 milliards de galaxies ou 2 billions de galaxies"],
                         ["Quel est la taille de la Tour Montparnasse en mètres ?", "209 m"]];
 
 
