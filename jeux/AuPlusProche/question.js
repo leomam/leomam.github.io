@@ -28,6 +28,8 @@ let tabquestionrep =    [["Combien d'États membres dans l'Union Européenne (20
                         ["Quel est l'année de sortie du Film \"Star Wars, épisode IV : Un nouvel espoir\" ?", "1977"],
                         ["Quel est l'année de sortie du Film \"Brice de Nice\" ?", "2005"],
                         ["Quel est l'année de sortie du Film \"La Cité de la peur\" ?", "1994"],
+                        ["Quel est l'année de sortie de \"L'iPhone 1\" ?", "2007"],
+                        ["En quelle année l'entreprise \"Intel\" a été créée ?", "1968"],
                         ["Combien de litres dans 1 mètre cube ?", "1000L"],
                         ["En 2021, Quel était le prix d'1kg d'or 24 carat en moyenne en € ?", "En 2021, le prix d'un lingot Or un kilo valait en moyenne 50 000€."],
 			            ["Quel est l'année de la mise au point du procédé de l'imprimerie ?", "1450"],
