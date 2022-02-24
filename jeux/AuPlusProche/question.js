@@ -14,6 +14,8 @@ let tabquestionrep =    [["Combien d'États membres dans l'Union Européenne (20
 			            ["Quel est la taille de Shakira ?", "1m57"],
 			            ["Quel est la taille de Shaquille O'Neal ?", "2m16"],
 			            ["Quel est l'année de décès de Nelson Mandela ?", "2013 (5 décembre)"],
+			["Quel est l'année de Gangnam Style ?", "2012 (15 juillet)"],
+			["Quel est l'année où Gangnam Style à dépassé les 1 milliard de vues ?", "2012 (21 décembre)"],
                         ["Quel est l'année de naissance de François Hollande ?", "1954 (12 août)"],
 			            ["Quel est l'année de la création de Minecraft ?", "2009 (17 mai)"],
                         ["Quel est l'année de sortie de la console Nintendo Switch ?", "2017"],
