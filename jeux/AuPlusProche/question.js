@@ -5,7 +5,7 @@ let tabquestionrep =    [["Combien d'États membres dans l'Union Européenne (20
                         ["Quel est la taille de la Statue de la Liberté SANS socle en mètres ?", "46 m"],
                         ["Quel est la taille de la Statue de la Liberté AVEC socle en mètres ?", "93 m"],
                         ["Combien vaut 1 Mile en mètres ?", "1609 m"],
-                        ["Combien vaut la superficie de la Ruissie en km² ?", "17,13 millions km²"],
+                        ["Combien vaut la superficie de la Russie en km² ?", "17,13 millions km²"],
                         ["Combien vaut la superficie de la France en km² ?", "543 940 km²"],
                         ["Combien vaut la superficie de l'Espagne en km² ?", "505 990 km²"],
                         ["Combien vaut la superficie de l'Allemagne en km² ?", "357 386 km²"],
