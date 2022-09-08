@@ -19,7 +19,7 @@ function generateCV(theme, langue){
     if (langue){
         //English
         var textSaveLang = "EN"
-        var textBio = { age: "years old", drivelicence: "Driving licence", num: "+33 6 XX XX XX XX", location: "49000 Angers (France)" }
+        var textBio = { age: "years old", drivelicence: "Driving licence", num: "+33 6 XX XX XX XX", location: "49300 Cholet (France)" }
         var textSkill = { header: "TECHNICAL\nSKILLS", progHeader: "Programming", secHeader: "Security", sysHeader: "System and networks", webHeader: "Web Front and Back", databaseHeader: "Database", projManage: "Project management", gameEngi: "Game engine" } 
         var textLang = { header: "FOREIGN\nLANGUAGES SKILLS", headerHighCorrection: -3.5, enLang: "English : Good working knowledge", esLang: "Spanish : Basic" }
         var textHobbies = { header: "HOBBIES", climb: "Climbing : In an alpine club", bad: "Badminton: 3 years of application", ski: "Skiing : Every years"}
@@ -30,7 +30,7 @@ function generateCV(theme, langue){
     } else {
         //French
         var textSaveLang = "FR"
-        var textBio = { age: "ans", drivelicence: "Permis B", num: "06 XX XX XX XX", location: "49000 Angers" }
+        var textBio = { age: "ans", drivelicence: "Permis B", num: "06 XX XX XX XX", location: "49300 Cholet" }
         var textSkill = { header: "COMPÉTENCES\nPROFESSIONNELLES", progHeader: "Programmation", secHeader: "Securité", sysHeader: "Systèmes et Réseaux", webHeader: "Web Front et Back", databaseHeader: "Bases de données", projManage: "Gestion de projets", gameEngi: "Moteur de Jeux" }
         var textLang = { header: "LANGUES", headerHighCorrection: 0, enLang: "Anglais : Niveau C1", esLang: "Espagnol : Niveau B1" }
         var textHobbies = { header: "LOISIRS", climb: "Escalade : En club", bad: "Badminton : 3 ans", ski: "Ski : tous les ans" }
