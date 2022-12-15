@@ -20,24 +20,24 @@ function generateCV(theme, langue){
         //English
         var textSaveLang = "EN"
         var textBio = { age: "years old", drivelicence: "Driving licence", num: "+33 6 XX XX XX XX", location: "49300 Cholet (France)" }
-        var textSkill = { header: "TECHNICAL\nSKILLS", progHeader: "Programming", secHeader: "Security", sysHeader: "System and networks", webHeader: "Web Front and Back", databaseHeader: "Database", projManage: "Project management", gameEngi: "Game engine" } 
+        var textSkill = { header: "TECHNICAL\nSKILLS", progHeader: "Programming", secHeader: "Security", sysHeader: "System and networks", webHeader: "Web Front and Back", databaseHeader: "Database", projManage: "Project management", bigData: "Big Data", gameEngi: "Game engine" } 
         var textLang = { header: "FOREIGN\nLANGUAGES SKILLS", headerHighCorrection: -3.5, enLang: "English : Good working knowledge", esLang: "Spanish : Basic" }
         var textHobbies = { header: "HOBBIES", climb: "Climbing : In an alpine club", bad: "Badminton: 3 years of application", ski: "Skiing : Every years"}
-        var textTitle = "Research work-study in cybersecurity"
-        var textEduc = { header: "Education and Qualifications", today: "Today : Digital Security Expert training", todaysub: "ENI Informatique (France)", past1: "2020 : Bachelor in computer science", past1sub: "Faculty of Sciences (France)", past2: "2019 : A 2 years Dipl. T in Computer Science", past2sub: "IUT of Lannion (France)" }
+        var textTitle = "Looking for work in Cybersecurity"
+        var textEduc = { header: "Education and Qualifications", today: "2022 : Digital Security Expert training", todaysub: "ENI Informatique (France)", past1: "2020 : Bachelor in computer science", past1sub: "Faculty of Sciences (France)", past2: "2019 : A 2 years Dipl. T in Computer Science", past2sub: "IUT of Lannion (France)" }
         var textProj = { header: "Projects", firstProj: "C++ Project | 2020 - Team Work", firstProjsub: "Character syntax analysis to\ntrigger the desired functions.\nTools : Yacc and Lex", secondProj: "Web Project | 2019 - Team Work", secondProjsub: "PHP and PostgreSQL project with a\npersonal web pokédex for each user.\nTools : VS Code and CodeIgniter", thirdProj: "Web Project | 2018 - Team Work", thirdProjsub: "Website based on augmented reality.\nhttp://temangowebsite.gitlab.io/demo/\nTools : Brackets / Atom", fourthProj: "Java Project | 2017 - Team Work", fourthProjsub: "Based on the Travelling salesman problem.\nOptimization of working time of the Mailmen.\nTools : Eclipse / Git / Java / JavaFX", fifthProj: "Web Project | 2017 - Team Work", fifthProjsub: "Website based on quantum computers.\nTools : Brackets / HTML / CSS", sixthProj: "Android and PC Project | 2016 - Team Work", sixthProjsub: "Puzzle Game Android based on Java.\nTools : Java / Processing" }
         var textWork = { header: "Work Experience", firstWork: "Product security at Saagie | 2020/2021 -\nWork-Study", firstWorksub: "Pair work, organization with Jira tickets,\nIncrease in IT security skills.\nSaagie (France)", secondWork: "Unity 3D Developer | Summer 2019 - Internship", secondWorksub: "Team work, organization with Trello,\nlinguistic improvement.\nUlster University (Northern Ireland)", thirdWork: "Logistics Officer | 2016 and 2017 - Summer Job", thirdWorksub: "Organized, ability to follow orders, team\nwork, Optimization of working time.\nCooperative bookshop \"la Sadel\" (France)" }
     } else {
         //French
         var textSaveLang = "FR"
         var textBio = { age: "ans", drivelicence: "Permis B", num: "06 XX XX XX XX", location: "49300 Cholet" }
-        var textSkill = { header: "COMPÉTENCES\nPROFESSIONNELLES", progHeader: "Programmation", secHeader: "Securité", sysHeader: "Systèmes et Réseaux", webHeader: "Web Front et Back", databaseHeader: "Bases de données", projManage: "Gestion de projets", gameEngi: "Moteur de Jeux" }
+        var textSkill = { header: "COMPÉTENCES\nPROFESSIONNELLES", progHeader: "Programmation", secHeader: "Securité", sysHeader: "Systèmes et Réseaux", webHeader: "Web Front et Back", databaseHeader: "Bases de données", projManage: "Gestion de projets", bigData: "Big Data", gameEngi: "Moteur de Jeux" }
         var textLang = { header: "LANGUES", headerHighCorrection: 0, enLang: "Anglais : Niveau C1", esLang: "Espagnol : Niveau B1" }
         var textHobbies = { header: "LOISIRS", climb: "Escalade : En club", bad: "Badminton : 3 ans", ski: "Ski : tous les ans" }
-        var textTitle = "Recherche Alternance Cybersécurité"
-        var textEduc = { header: "Formation", today: "Aujourd'hui : Formation Expert en Sécurité\nDigitale", todaysub: "ENI École Informatique (44)", past1: "2020 : Licence Informatique", past1sub: "Faculté des Sciences (49)", past2: "2019 : DUT Informatique", past2sub: "IUT de Lannion (22)"}
+        var textTitle = "Recherche CDI Cybersécurité"
+        var textEduc = { header: "Formation", today: "2022 : Formation Expert en Sécurité Digitale", todaysub: "ENI École Informatique (44)", past1: "2020 : Licence Informatique", past1sub: "Faculté des Sciences (49)", past2: "2019 : DUT Informatique", past2sub: "IUT de Lannion (22)"}
         var textProj = { header: "Projets", firstProj: "Projet C++, Yacc et Lex | 2020 - Équipe", firstProjsub: "Analyses syntaxiques de caractères pour\ndéclencher les fonctions voulues.\nOutils : Yacc et Lex", secondProj: "Projet Web PHP | 2019 - Équipe", secondProjsub: "Site Projet PHP et PostgreSQL pour\nréaliser un pokédex personnel.\nOutils : VS Code et CodeIgniter", thirdProj: "Projet Web | 2018 - Équipe", thirdProjsub: "Site Web vitrine sur la réalité augmentée.\nhttp://temangowebsite.gitlab.io/demo/\nOutils : Brackets / Atom", fourthProj: "Projet Java | 2017 - Équipe", fourthProjsub: "Application Java basée sur le\nproblème du voyageur de commerce.\nOutils : Eclipse / Git / Java / JavaFX", fifthProj: "Projet Web | 2017 - Équipe", fifthProjsub: "Site vitrine sur les ordinateurs quantiques.\nOutils : Brackets / HTML / CSS", sixthProj: "Projet Android et PC | 2016 - Équipe", sixthProjsub: "Jeu de réflexion Android basé sur Java.\nOutils : Java / Processing" }
-        var textWork = { header: "Expérience Professionnelle", firstWork: "Sécurité produit chez Saagie | 2020/2021 -\nAlternance", firstWorksub: "Travail en binôme, organisation avec tickets Jira,\nMontée en compétences sur l'aspect sécurité.\nSaagie (Rouen)", secondWork: "Développeur Unity 3D | Été 2019 - Stage", secondWorksub: "Travail en équipe, organisation avec Trello,\namélioration linguistique.\nUlster University (Irlande du Nord)", thirdWork: "Agent Logistique | Été 2016 et 2017 - Saison", thirdWorksub: "Suivi d'un mode opératoire, travail en équipe,\noptimisation du temps, organisation.\nLibrairie coopérative la Sadel (49320 Brissac-Quincé)" }
+        var textWork = { header: "Expérience Professionnelle", firstWork: "Sécurité produit chez Meteodyn | 2021/2022 -\nAlternance", firstWorksub: "Travail en équipe, organisation avec tickets Git,\nMontée en compétences sur l'aspect sécurité.\nMeteodyn (Saint-Herblain)", secondWork: "Sécurité produit chez Saagie | 2020/2021 -\nAlternance", secondWorksub: "Travail en binôme, organisation avec tickets Jira,\nMontée en compétences sur l'aspect sécurité.\nSaagie (Rouen)", thirdWork: "Développeur Unity 3D | Été 2019 - Stage", thirdWorksub: "Travail en équipe, amélioration linguistique.\nUlster University (Irlande du Nord)" }
     }
 
     //Profil Photo
@@ -117,7 +117,7 @@ function generateCV(theme, langue){
     doc.setFontSize(14);
     doc.text(textSkill.secHeader, 45, 160 + lcategory4h, 'center');
     doc.setFontSize(8);
-    doc.text("K9s / Nmap / Wireshark", 45, 163.5  + lcategory4h, 'center');
+    doc.text("K9s / Hashcat / DonPAPI / Autopsy / Nmap / Wireshark", 45, 163.5  + lcategory4h, 'center');
     doc.setFontSize(14);
     doc.text(textSkill.sysHeader, 45, 169 + lcategory4h, 'center');
     doc.setFontSize(8);
@@ -135,7 +135,7 @@ function generateCV(theme, langue){
     doc.setFontSize(8);
     doc.text("Git / Notion / Jira", 45, 199.5  + lcategory4h, 'center');
     doc.setFontSize(14);
-    doc.text("Big Data", 45, 205 + lcategory4h, 'center');
+    doc.text(textSkill.bigData, 45, 205 + lcategory4h, 'center');
     doc.setFontSize(8);
     doc.text("Spark / Hadoop / Cassandra / ElasticSearch", 45, 208.5  + lcategory4h, 'center');
     doc.setFontSize(14);
@@ -272,14 +272,14 @@ function generateCV(theme, langue){
     doc.text(textWork.secondWork, 100, 270 + rcategory3h);
     doc.setTextColor(secondaryColor[0]/2,secondaryColor[1]/2,secondaryColor[2]/2);
     doc.setFontSize(12);
-    doc.text(textWork.secondWorksub, 105, 275 + rcategory3h);
+    doc.text(textWork.secondWorksub, 105, 281 + rcategory3h);
 
     doc.setTextColor(0, 0, 0);
     doc.setFontSize(14);
-    doc.text(textWork.thirdWork, 100, 292 + rcategory3h);
+    doc.text(textWork.thirdWork, 100, 298 + rcategory3h);
     doc.setTextColor(secondaryColor[0]/2,secondaryColor[1]/2,secondaryColor[2]/2);
     doc.setFontSize(12);
-    doc.text(textWork.thirdWorksub, 105, 297 + rcategory3h);
+    doc.text(textWork.thirdWorksub, 105, 303 + rcategory3h);
 
     //Save A4 Format
     //210 x 297
